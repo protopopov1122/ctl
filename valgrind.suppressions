@@ -1,0 +1,40 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Value8
+   fun:ctl_spawn_context_entry
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Value8
+   fun:ctl_scheduler_entry
+   fun:ctl_spawn_context_entry
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:ctl_scheduler_yield
+   ...
+   fun:ctl_scheduler_entry
+   fun:ctl_spawn_context_entry
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Value8
+   fun:ctl_scheduler_yield
+   ...
+   fun:ctl_scheduler_entry
+   fun:ctl_spawn_context_entry
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Value8
+   fun:ctl_scheduler_yield
+   ...
+   fun:ctl_scheduler_entry
+   fun:ctl_spawn_context_entry
+   ...
+}
